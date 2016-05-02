@@ -1,0 +1,88 @@
+html {
+  background-color: rgba(0, 0, 0, .1);
+  text-align: center;
+  height:100%;
+}
+
+head,
+title {
+  display: block;
+}
+
+title {
+  font-size: 60px;
+  margin: 15px 0;
+  font-weight:normal;
+  color:#FFF;
+  position:absolute;
+  width:50%;
+  top:20%;
+  font-family: 'Raleway', sans-serif;
+  text-transform:uppercase;
+}
+body{
+	background:url(../images/wp1.jpg) no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	}
+.Timer {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 20px;
+  background-color: none;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px 0px #656565;
+  position:absolute;
+  bottom:20%;
+  right:10%;
+  box-shadow:0px 0px 10px 0px #999;
+}
+.Timer h1 {  
+  font-family:'Roboto Condensed', sans-serif;
+  display: inline-block;
+  position: relative;
+  color:#FFF;
+  margin: 0;
+  padding: 10px 40px;
+  font-size: 80px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  background: -webkit-linear-gradient(left, #F15A24 , #F7931E); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F15A24, #F7931E); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F15A24, #F7931E); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F15A24 , #F7931E); /* Standard syntax */
+}
+.Timer h1:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 33px;
+  background: rgba(255, 255, 255, .2);
+}
+
+.Timer .buttons {
+  margin-top: 20px;
+}
+.Timer button {
+  background: #34719e none repeat scroll 0 0;
+    border: 1px solid #0a4570;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    outline: medium none;
+    padding: 3px 30px;
+	transition: background-color 0.15s ease-in 0s;
+}
+.Timer button + button {
+  margin-left: 10px;
+}
+.Timer button:hover {
+	background:#65a5c8;
+	border-color:#3a80a6;
+}
